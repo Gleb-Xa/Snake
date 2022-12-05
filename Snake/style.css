@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #373737;
+}
+
+.windowScores {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.information {
+    margin: 15px;
+    height: 70px;
+    width: 150px;
+    color: white;
+    background-color: #A4A4A4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameField {
+    width: 710px;
+    height: 710px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.btnStart {
+    width: 300px;
+    height: 70px;
+    font-size: 24px;
+    color: #373737;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    background-color: #3D3D3D;
+    border: 1px solid black;
+}
+
+.head {
+    background-color: #FFFFFF;
+}
+
+.bodySnake {
+    background-color: #C4C4C4;
+}
+
+.apple {
+    background-color: red;
+}
+
